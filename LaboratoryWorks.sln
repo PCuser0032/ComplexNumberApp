@@ -9,6 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentApp", "..\StudentApp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LaboratoryWork1", "LaboratoryWork1", "{22F69BE5-BEAF-4D5C-9C56-E86B81EC816A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LaboratoryWork2", "LaboratoryWork2", "{C1450C50-592F-4EC4-B013-674DEB72A00F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LaboratoryWork3", "LaboratoryWork3", "{C73FB535-F509-4224-A305-E690DCBF3680}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometricFiguresApp", "..\GeometryFiguresApp\GeometricFiguresApp.csproj", "{9556DC50-C5C7-4684-A131-6F43511C4AC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +29,10 @@ Global
 		{BC765C35-E576-4E5E-8371-54D5683A0D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC765C35-E576-4E5E-8371-54D5683A0D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC765C35-E576-4E5E-8371-54D5683A0D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9556DC50-C5C7-4684-A131-6F43511C4AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9556DC50-C5C7-4684-A131-6F43511C4AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9556DC50-C5C7-4684-A131-6F43511C4AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9556DC50-C5C7-4684-A131-6F43511C4AC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{26694985-FDA0-4E8A-B18E-601BE80BE4DA} = {22F69BE5-BEAF-4D5C-9C56-E86B81EC816A}
 		{BC765C35-E576-4E5E-8371-54D5683A0D56} = {22F69BE5-BEAF-4D5C-9C56-E86B81EC816A}
+		{9556DC50-C5C7-4684-A131-6F43511C4AC2} = {C1450C50-592F-4EC4-B013-674DEB72A00F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69BE9D72-ADA9-45DA-83BF-A225F5C46109}
