@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComplexNumberApp", "ComplexNumberApp.csproj", "{26694985-FDA0-4E8A-B18E-601BE80BE4DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComplexNumberApp", "ComplexNumberApp.csproj", "{CDFA481B-8AA2-4CA2-B1C7-8C1E05B1DF9A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentApp", "..\StudentApp\StudentApp.csproj", "{BC765C35-E576-4E5E-8371-54D5683A0D56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentApp", "..\StudentApp\StudentApp.csproj", "{F8669D1B-C465-4461-B33A-8F29F97427A3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LaboratoryWork1", "LaboratoryWork1", "{22F69BE5-BEAF-4D5C-9C56-E86B81EC816A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometryFiguresApp", "..\GeometryFiguresApp\GeometryFiguresApp.csproj", "{F4F4C9DE-E647-4C60-8371-32D61696CD35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LaboratoryWork1", "LaboratoryWork1", "{C1F74529-E4D6-4B51-95FD-6F63D99F5409}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LaboratoryWork2", "LaboratoryWork2", "{9AB106E7-7C39-422A-9B26-D27C517274C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LaboratoryWork3", "LaboratoryWork3", "{B041869D-FF9A-4B05-A7A1-FF44D94F865F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,21 +21,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{26694985-FDA0-4E8A-B18E-601BE80BE4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26694985-FDA0-4E8A-B18E-601BE80BE4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26694985-FDA0-4E8A-B18E-601BE80BE4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26694985-FDA0-4E8A-B18E-601BE80BE4DA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BC765C35-E576-4E5E-8371-54D5683A0D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BC765C35-E576-4E5E-8371-54D5683A0D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BC765C35-E576-4E5E-8371-54D5683A0D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BC765C35-E576-4E5E-8371-54D5683A0D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDFA481B-8AA2-4CA2-B1C7-8C1E05B1DF9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDFA481B-8AA2-4CA2-B1C7-8C1E05B1DF9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDFA481B-8AA2-4CA2-B1C7-8C1E05B1DF9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDFA481B-8AA2-4CA2-B1C7-8C1E05B1DF9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8669D1B-C465-4461-B33A-8F29F97427A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8669D1B-C465-4461-B33A-8F29F97427A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8669D1B-C465-4461-B33A-8F29F97427A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8669D1B-C465-4461-B33A-8F29F97427A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F4C9DE-E647-4C60-8371-32D61696CD35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F4C9DE-E647-4C60-8371-32D61696CD35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F4C9DE-E647-4C60-8371-32D61696CD35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F4C9DE-E647-4C60-8371-32D61696CD35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{26694985-FDA0-4E8A-B18E-601BE80BE4DA} = {22F69BE5-BEAF-4D5C-9C56-E86B81EC816A}
-		{BC765C35-E576-4E5E-8371-54D5683A0D56} = {22F69BE5-BEAF-4D5C-9C56-E86B81EC816A}
+		{CDFA481B-8AA2-4CA2-B1C7-8C1E05B1DF9A} = {C1F74529-E4D6-4B51-95FD-6F63D99F5409}
+		{F8669D1B-C465-4461-B33A-8F29F97427A3} = {C1F74529-E4D6-4B51-95FD-6F63D99F5409}
+		{F4F4C9DE-E647-4C60-8371-32D61696CD35} = {9AB106E7-7C39-422A-9B26-D27C517274C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69BE9D72-ADA9-45DA-83BF-A225F5C46109}
